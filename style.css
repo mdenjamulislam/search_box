@@ -1,0 +1,96 @@
+/*----------------------------------------------------------------------|
+    Template name: Bood Donation Template
+    Author: MD Enjamul Islam
+    Author URL: mdenjamulislam527@gmail.com
+    Versions: 1.0.0
+
+    Basic color: #
+    Text-color: #fff;
+    Background color: #16181D;
+|-----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------|
+    [ Table of collum ]
+
+    1.0 Google Font
+    2.0 BODY / common css
+    3.0 Header / site header 
+    
+|-----------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------|
+    1. GOOGLE FONT
+|-----------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200,300,400,700,800,900');
+
+
+/*-----------------------------------------------------------------------|
+    2. BODY / COMMON CSS
+|-----------------------------------------------------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: comfortaa,cursive;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    line-height: 26px;
+    overflow-x: hidden;
+    color: #111;
+    background: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/*-----------------------------------------------------------------------|
+    3. SEARCHBAR
+|-----------------------------------------------------------------------*/
+
+
+.search-form-wrap {
+    margin-top: 50px;
+}
+form.search-form {}
+form.search-form input {
+    background-color: white;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    flex: 1 1 0%;
+    padding: 0px 17px;
+    border-radius: 6px 0px 0px 6px;
+    outline: none;
+    border: 1px solid rgb(231, 236, 239);
+    height: 42px;
+    margin-right: -5px;
+}
+form.search-form i {
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-right: 29px;
+    padding-left: 29px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    background: #222;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+}
+a.btn {}
